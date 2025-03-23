@@ -19,17 +19,19 @@ http://localhost:3000
 ## Структура проєкту
 ```
 ├── app/
-│   ├── docker-compose.yml
-│   ├── Dockerfile
-│   ├── error.html
-│   ├── index.html
-│   ├── logo.png
-│   ├── main.py
-│   ├── message.html
-│   ├── read.html
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── style.css
+│   ├── images/
+|   |   ├── logo.png
 │   ├── storage/
 │   │   ├── data.json
-```
+|   ├── templates/
+│   │   ├── error.html
+│   │   ├── index.html
+|   |   ├── message.html
+|   |   ├── read.html
+|   ├── styles/
+|   |   ├── style.css
+│   ├── main.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── docker-compose.yml
+│   ├── Dockerfile
